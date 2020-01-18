@@ -45,7 +45,11 @@ namespace vending_Machine
                 input = Console.ReadLine();
 
                 product findproduct = product.None;
-                Enum.TryParse(input, out findproduct);
+                if (!Enum.TryParse(input, out findproduct))
+                {
+                    Console.WriteLine("등록되지 않은 상품입니다.");
+                    continue;
+                }
 
 
 

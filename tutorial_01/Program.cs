@@ -82,7 +82,7 @@ namespace tutorial_01
             //    }
             //}
             #endregion
-
+            #region 열거형 및 스위치문
             //switch 
             //조건문
 
@@ -123,15 +123,47 @@ namespace tutorial_01
             //while
             //반복문
 
-            int value = 0;
+            //int value = 0;
 
-            while (value != 100)
-            {
-                value++;
-                Console.WriteLine(value.ToString());
+            //while (value != 100)
+            //{
+            //    value++;
+            //    Console.WriteLine(value.ToString());
+            //    #endregion
 
-            }
-           
+
+
+
+            //}
+
+            // 자료형, 이름 , 파라메터
+            // 1. 자료형? 리턴할 변수형
+            // 2. 이름은 함수의 이름
+            // 3. 파라메터 (선택) 이 0함수를 사용할때 필요할 수 도있는 객체
+            #endregion
+
+
+            int result = subtract(3, 5);
+            Console.WriteLine(result);
+            
+
         }
+
+        static int subtract(int a, int b)
+        {
+            return a - b;
+        }
+        static void PrintName()
+        {
+
+        }
+
+        static int Add(int a, int b)
+
+        {
+            return a + b;
+        }
+
+
     }
 }
