@@ -135,14 +135,14 @@ namespace tutorial_01
 
 
             //}
-
+            #endregion
             // 자료형, 이름 , 파라메터
             // 1. 자료형? 리턴할 변수형
             // 2. 이름은 함수의 이름
             // 3. 파라메터 (선택) 이 0함수를 사용할때 필요할 수 도있는 객체
-            #endregion
 
 
+            //
             int result = subtract(3, 5);
             Console.WriteLine(result);
             
